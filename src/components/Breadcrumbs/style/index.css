@@ -1,0 +1,13 @@
+@import 'styles/vars.scss';
+
+.crumb {
+  display: inline-block;
+}
+  
+.crumb:after {
+  content: ' / ';
+}
+  
+.crumb:last-child:after {
+  content: '';
+}
